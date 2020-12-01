@@ -1,0 +1,18 @@
+.center{
+    text-align:center;
+  }
+  
+  .dark{
+    background-color: black;
+    color: white;
+  }
+  
+  .light{
+    background-color:lightgray;
+    
+  }
+  
+  .wrapper{
+    margin: auto;
+    width:350px;
+  }
