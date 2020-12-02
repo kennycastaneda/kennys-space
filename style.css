@@ -16,3 +16,7 @@
     margin: auto;
     width:350px;
   }
+
+  body{
+      background-image: url("images/night-desert-tracks.jpg");
+  }
