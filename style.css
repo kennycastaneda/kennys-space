@@ -90,7 +90,46 @@
     padding: 5px;
   }
 
-  nav{
-    color: #fff;
+  ol{
+    margin: auto;
+    width: 400px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding: 5px;
+  }
 
+  nav{
+    padding-top: 20px;
+  }
+  nav a:link{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #fff;
+  }
+  nav a:visited{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #fff;
+  }
+  nav a:hover{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  nav a:active{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+  a:link{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #000000;
+  }
+  a:visited{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #000000;
+  }
+  a:hover{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  a:active{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255,.75);
   }
