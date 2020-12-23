@@ -70,7 +70,7 @@
     height: 320px;
     background-image: url(images/headshot2_gray.jpg);
     background-size: cover;
-    display: block;
+    /*display: block;*/
     border-radius: 100%;
     margin: auto;
   }
