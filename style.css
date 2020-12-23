@@ -62,6 +62,7 @@
   p{
       font-family: Roboto, Arial, Helvetica, sans-serif;
       padding: 5px;
+      text-align: justify;
   }
 
   .circular{ /* make headshot circular */
