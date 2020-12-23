@@ -1,38 +1,42 @@
-.center{
+.center{ /*bringing contenct to center*/
     text-align:center;
   }
   
-  .white{
+  .white{ /*make text white*/
       color: #fff;
   }
   
-  .dark{
+  .dark{ /*make text dark*/
     color: rgb(31, 46, 61);
   }
-  .light{
+  .light{ /* make text background light */
     background-color:rgba(255, 255, 255, 0.2);
   }
   
-  .wrapper{
+  .wrapper{ /* fits into a column and centers to browser window*/
     margin: auto;
-    width:700px;
+    width:90%;
+    height:auto;
+    border: 0px;
   }
 
-  header{
+  header{ 
     background: /* top, transparent black */
         linear-gradient( rgba(55, 55, 55, 0.2), rgb(55, 55, 55, .8)), /* bottom, image */
         url(images/night-desert-tracks.jpg);
+    border-radius: 20px;
     background-size: cover;
-    height: 550px;
-    padding-top:70px;
+    /*height: 550px;*/
+    padding-top:50px;
+    padding-bottom: 10px;
 
   }
-  header{
+  header{ /*incase image doesn't load*/
       background-color: #222829;
       /*border-bottom: 1px solid rgb(22, 26, 44);*/
   }
 
-  header h1{
+  header h1{ /* my name */
       font-family:serif, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       color: rgba(255, 255, 255, 0.349);
       text-align: center;
@@ -41,16 +45,18 @@
       padding: 10px;
   }
 
-  header h2{
+  header h2{ /* major about me */
       font-family: Georgia, 'Times New Roman', Times, serif;
       text-align: center;
   }
 
-  h3{
+  h3{ /* sections of website */
       font-family: Roboto, Arial, Helvetica, sans-serif;
-      padding: 5px;
+      padding-top: 20px;
+      padding-bottom: 10px;
       margin: auto;
-      width: 600px;
+      width: 80%;
+      text-align: center;
   }
   
   p{
@@ -58,14 +64,19 @@
       padding: 5px;
   }
 
-  .circular{
-    width: 300px;
-    height: 300px;
+  .circular{ /* make headshot circular */
+    width: 320px;
+    height: 320px;
     background-image: url(images/headshot2_gray.jpg);
     background-size: cover;
     display: block;
-    border-radius: 150px;
+    border-radius: 100%;
     margin: auto;
+  }
+
+  hr{
+    width:25%;
+
   }
 
   footer{
@@ -80,32 +91,38 @@
   main p{
     background-color: #2228290a solid 10px;
     margin: auto;
-    width:500px;
+    width:70%;
   }
 
   ul{
     margin: auto;
-    width: 400px;
+    width: 60%;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     padding: 5px;
   }
 
   ol{
     margin: auto;
-    width: 400px;
+    width: 60%;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     padding: 5px;
+  }
+  ol li{
+    padding-top:10px;
   }
 
   nav{
     padding-top: 20px;
+    padding-bottom: 10px;
   }
-  nav a:link{
+  nav a:link{ /* nav links are different than rest of links in the page */
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    text-decoration: none;
     color: #fff;
   }
   nav a:visited{
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    text-decoration: none;
     color: #fff;
   }
   nav a:hover{
@@ -117,7 +134,7 @@
     color: rgb(255, 255, 255);
   }
 
-  a:link{
+  a:link{ /* set colors to links in page */
     font-family: Roboto, Arial, Helvetica, sans-serif;
     color: #000000;
   }
