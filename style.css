@@ -66,11 +66,11 @@
   }
 
   .circular{ /* make headshot circular */
-    width: 320px;
-    height: 320px;
+    width: 200px;
+    height: 200px;
     background-image: url(images/headshot2_gray.jpg);
     background-size: cover;
-    /*display: block;*/
+    display: block;
     border-radius: 100%;
     margin: auto;
   }
