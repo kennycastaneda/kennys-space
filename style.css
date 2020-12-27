@@ -15,7 +15,7 @@
   
   .wrapper{ /* fits into a column and centers to browser window*/
     margin: auto;
-    width:90%;
+    width:99%;
     height:auto;
     border: 0px;
   }
