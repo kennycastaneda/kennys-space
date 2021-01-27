@@ -207,6 +207,20 @@ a:active {
   border-color: #000;
   border-radius: 20px;
 }
+
+.project a:link {
+  filter: grayscale(0%);
+}
+.project a:visited {
+  filter: brightness(50%);
+}
+.project a:hover {
+  filter: blur(1px);
+}
+.project a:active {
+  filter: brightness(0%);
+}
+
 @media all and (min-width: 800px) {
   .projects {
     flex-direction: row;
