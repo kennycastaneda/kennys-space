@@ -185,16 +185,27 @@ a:active {
 
 .projects {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 100px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /**flex-direction: column;
+  margin-bottom: 100px;**/
 }
 .projects img {
-  width: 100%;
+  width: 80%;
 }
 
 .project {
-  flex: 1;
-  margin: 10px;
+  flex: 0 39%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  height: auto;
+  margin-bottom: 2%;
+  border: 2px solid;
+  border-color: #000;
+  border-radius: 20px;
 }
 @media all and (min-width: 800px) {
   .projects {
