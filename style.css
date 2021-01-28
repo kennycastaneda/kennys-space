@@ -196,6 +196,8 @@ a:active {
 
 .project {
   flex: 0 39%;
+}
+.proj-button {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: auto;
@@ -209,16 +211,19 @@ a:active {
 }
 
 .project a:link {
-  filter: grayscale(0%);
+  background-color: white;
 }
-.project a:visited {
-  filter: brightness(50%);
+.project a:visited div {
+  background-color: black;
+  filter: brightness(10%);
 }
-.project a:hover {
+.project a:hover div {
   filter: blur(1px);
+  border: 2px solid black;
 }
-.project a:active {
-  filter: brightness(0%);
+.project a:active div {
+  background-color: black;
+  filter: brightness(00%);
 }
 
 @media all and (min-width: 800px) {
