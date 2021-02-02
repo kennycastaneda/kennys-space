@@ -51,16 +51,12 @@ header {
       rgba(55, 55, 55, 0.3)
     ),
     /* bottom, image */ url(images/night-desert-tracks.jpg);
+  background-color: #222829;
   border-radius: 20px;
   background-size: cover;
-  /*height: 550px;*/
+  margin-top: 100px;
   padding-top: 50px;
   padding-bottom: 10px;
-}
-header {
-  /*incase image doesn't load*/
-  background-color: #222829;
-  /*border-bottom: 1px solid rgb(22, 26, 44);*/
 }
 
 header h1 {
@@ -225,9 +221,49 @@ a:active {
   background-color: black;
   filter: brightness(00%);
 }
+.group-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.item-form {
+  flex: 0 100%;
+  margin: auto 1px;
+  padding: 10px;
+}
 
+.black-text {
+  color: black;
+}
+form {
+  margin: auto;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+form input,
+form textarea,
+form label {
+  width: 100%;
+  margin-bottom: 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+form textarea {
+  height: 160px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+form button {
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
 @media all and (min-width: 800px) {
   .projects {
     flex-direction: row;
+  }
+  .black-text {
+    color: white;
   }
 }

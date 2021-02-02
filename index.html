@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Kenny Castaneda</title> <!--Here's my unique title-->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Special+Elite&display=swap" rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -23,6 +24,7 @@
 		<a href="#about">About</a>
 		<a href="#contact">Contact</a>
 		<a href="#projects">Projects</a>
+
 	</nav>
 	</header>
 	
@@ -85,15 +87,48 @@
 					</a>
 				</div>
 				<div class = "project">
-				<a href="https://kennycastaneda.github.io/hookrazor/">
-				<div class="proj-button">
-					<img src="images/HookRazor.png" alt="Hook Razor" width="400">
+					<a href="https://kennycastaneda.github.io/hookrazor/">
+						<div class="proj-button">
+							<img src="images/HookRazor.png" alt="Hook Razor" width="400">
+						</div>
+					</a>
 				</div>
-				</a>
+				<div class = "project">
+					<a href="http://healthycentenarian.com">
+						<div class="proj-button">
+							<img src="images/HealthyCentenarian.png" alt="Healthy Centenarian" width="400">
+						</div>
+					</a>
 				</div>
 				
 			</div>
 		</section>
+
+		<section id="formcontact">
+			<h3 class="light dark">Reach out if you want to work together on a project:</h3>
+			<div class="group-form">
+				
+				<form action="https://formspree.io/f/xvovljyr" method="post">
+					<div class="item-form">
+						<label name="name" > Your Name:</label>
+						<input name="Name" id="name" type="text" required minlength="3" maxlength="25" size="25">
+					</div>
+					<div class="item-form">
+						<label for="email">Your Email:</label>
+						<input name="Email" id="email" type="email" required size="25">
+					</div>
+					<div class="item-form">
+						<label for="message">Let me know what inventions or ideas you have in mind:</label>
+						<textarea id="message" name="message"></textarea>
+					</div>
+					<div style="text-align: center;">
+						<button type="submit" class="item-form">Submit</button>
+					</div>
+					
+				  </form>
+			</div>
+		</section>
+
     </main>
 
 	<footer class="wrapper">
