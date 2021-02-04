@@ -187,7 +187,9 @@ a:active {
   margin-bottom: 100px;**/
 }
 .projects img {
-  width: 80%;
+  max-height: 40px;
+  width: auto;
+  max-width: 80%;
 }
 
 .project {
