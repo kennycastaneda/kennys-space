@@ -181,10 +181,8 @@ a:active {
 
 .projects {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  /**flex-direction: column;
-  margin-bottom: 100px;**/
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 .projects img {
   max-height: 40px;
@@ -192,8 +190,17 @@ a:active {
   max-width: 80%;
 }
 
+.site-image {
+  max-height: 300px !important;
+  max-width: 90% !important;
+  margin: 10px auto;
+  border: black solid 2px;
+  border-radius: 20px;
+}
+
 .project {
-  flex: 0 39%;
+  flex: 0 45%;
+  text-align: center;
 }
 .proj-button {
   padding-top: 5px;
@@ -263,6 +270,8 @@ form button {
 }
 @media all and (min-width: 800px) {
   .projects {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     flex-direction: row;
   }
   .black-text {
