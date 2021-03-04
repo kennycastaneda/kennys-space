@@ -20,7 +20,7 @@
 .wrapper {
   /* fits into a column and centers to browser window*/
   margin: auto;
-  width: 50%;
+  width: 75%;
   height: auto;
   border: 0px;
 }
